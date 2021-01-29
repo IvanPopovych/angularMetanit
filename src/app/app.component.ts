@@ -26,7 +26,9 @@ import { Component } from '@angular/core';
                 <div class="" [style.backgroundColor]="colorBox">div 5</div>
                 <input type="text" [(ngModel)]="colorBox">
                 <h2>H2 in app component</h2>
-                <child-comp><h2>Hello_2, {{name}}</h2></child-comp>
+    
+                <child-comp [userName]="name" [userAge]="age"><h2>Hello_2, {{name}}</h2></child-comp>
+                <input type="text" [(ngModel)]="name">
                 `,
     styles: [`
         div {width:50px; height: 50px; border:1px solid #ccc}
@@ -34,11 +36,11 @@ import { Component } from '@angular/core';
     `]
 })
 export class AppComponent {
-    name = '';
-    age = 33;
+    name:string = 'Ivan';
+    age:number = 33;
     isRed = false;
     className = 'isredbox';
-    colorBox = ''
+    colorBox = '';
 
     count: number = 0;
     increase($event: any): void {
