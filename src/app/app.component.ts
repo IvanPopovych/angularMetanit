@@ -26,7 +26,7 @@ import { Component } from '@angular/core';
                 <div class="" [style.backgroundColor]="colorBox">div 5</div>
                 <input type="text" [(ngModel)]="colorBox">
                 <h2>H2 in app component</h2>
-                <child-comp></child-comp>
+                <child-comp><h2>Hello_2, {{name}}</h2></child-comp>
                 `,
     styles: [`
         div {width:50px; height: 50px; border:1px solid #ccc}
