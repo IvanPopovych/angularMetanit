@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="df7db4ec-291b-4c0b-89e6-6df9dfbf7747" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/child.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/child.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,11 @@
       <workItem from="1611589455933" duration="1242000" />
       <workItem from="1611736038203" duration="7926000" />
       <workItem from="1611838647205" duration="2587000" />
-      <workItem from="1611906475091" duration="5200000" />
+      <workItem from="1611906475091" duration="6023000" />
+      <workItem from="1612164812954" duration="2110000" />
+      <workItem from="1612275343021" duration="696000" />
+      <workItem from="1612349897023" duration="601000" />
+      <workItem from="1612885461011" duration="51000" />
     </task>
     <servers />
   </component>
@@ -67,5 +70,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
